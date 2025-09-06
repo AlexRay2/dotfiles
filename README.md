@@ -1,4 +1,4 @@
-# NIXOS && HYPRLAND ⚡
+# ARCH && HYPRLAND ⚡
 
 **A minimal yet functional and aesthetic configuration for a daily-driver Linux desktop**
 ---
