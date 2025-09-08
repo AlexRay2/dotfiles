@@ -1,5 +1,5 @@
 * {
-  font-family: "JetBrains Mono Nerd Font", "JetBrains Mono", sans-serif;
+  font-family: "JetBrainsMono Nerd Font", "JetBrainsMono", sans-serif;
   border: none;
   border-radius: 0;
   transition: all 0.2s ease;
@@ -7,6 +7,7 @@
 
 window#waybar {
   background: transparent;
+  color: #cdd6f4; 
 }
 
 #clock,
@@ -19,9 +20,10 @@ window#waybar {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 20px;
+  padding: 0 12px;
+  color: #cdd6f4; 
   background-color: rgba(48, 53, 58, 0.4);
-  border-radius: 10px;
-  padding: 5px 10px;
+  border-radius: 15px; 
 }
 
 #language,
@@ -30,6 +32,24 @@ window#waybar {
 #cpu,
 #temperature {
   font-weight: bolder;
+}
+
+#tray {
+  padding-right: 8px;
+  padding-left: 8px;
+  color: #cdd6f4;
+  background-color: rgba(48, 53, 58, 0.4);
+  border-radius: 15px;
+  -gtk-icon-effect: none; 
+}
+
+#tray > .passive {
+  -gtk-icon-effect: none;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  color: #f9e2af;
 }
 
 #workspaces {
@@ -51,14 +71,10 @@ window#waybar {
 }
 
 #workspaces button.active {
-  background-color: rgba(137, 180, 250, 0.2); /* Активный — слегка подсвечен */
+  background-color: rgba(137, 180, 250, 0.2);
   border-bottom: 2px solid #89b4fa;
 }
 
 #workspaces button:hover {
   background-color: rgba(137, 180, 250, 0.1);
-}
-
-#tray {
-  padding-right: 8px;
 }
