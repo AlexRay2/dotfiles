@@ -1,10 +1,10 @@
 window {
-  background-color: #1e1e2e;
+  background-color: #000000;
 }
 
 * {
   font-family: "Jetbrains Mono Nerd Font";
-  color: #fff;
+  color: #ffffff;
 }
 
 #scroll {
@@ -12,7 +12,7 @@ window {
 }
 
 #input {
-  background-color: #1e1e2e;
+  background-color: #000000;
   color: #ffffff;
   outline: none;
   box-shadow: none;
@@ -36,11 +36,11 @@ window {
 }
 
 #entry:selected {
-  background-color: #b5beff;
+  background-color: #333333;
   outline: none;
 }
 
 #text:selected {
-  color: #1a1b26;
+  color: #ffffff;
 }
 

@@ -63,17 +63,17 @@
     },
     "pulseaudio": {
       "format": "{icon}  {volume}%",
-      "format-bluetooth": "{volume}% {icon} {format_source}",
-      "format-bluetooth-muted": " {icon} {format_source}",
+      "format-bluetooth": "{volume}% {icon} {format_source}",
+      "format-bluetooth-muted": " {icon} {format_source}",
       "format-muted": " {format_source}",
       "format-icons": {
-        "headphone": "",
-        "hands-free": "",
-        "headset": "",
-        "phone": "",
-        "portable": "",
-        "car": "",
-        "default": ["", "", ""]
+      "headphone": "",       // стандартные наушники
+      "hands-free": "",      // гарнитура
+      "headset": "",         // гарнитура
+      "phone": "",           // телефон
+      "portable": "",        // ноутбук
+      "car": "",             // автомобиль
+    "default": ["","",""] // колонки/звук
       },
       "on-click": "pavucontrol",
     },

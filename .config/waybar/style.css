@@ -7,40 +7,25 @@
 
 window#waybar {
   background: transparent;
-  color: #cdd6f4; 
+  color: #ffffff;
 }
 
-#clock,
-#pulseaudio,
-#tray,
-#language,
-#memory,
-#cpu,
-#temperature {
-  margin-top: 10px;
-  margin-bottom: 10px;
+#clock, #pulseaudio, #language, #memory, #cpu, #temperature, #tray {
+  margin: 10px 0 10px;
   margin-right: 20px;
   padding: 0 12px;
-  color: #cdd6f4; 
-  background-color: rgba(48, 53, 58, 0.4);
-  border-radius: 15px; 
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
 }
 
-#language,
-#clock,
-#memory,
-#cpu,
-#temperature {
+#language, #clock, #memory, #cpu, #temperature {
   font-weight: bolder;
 }
 
 #tray {
-  padding-right: 8px;
-  padding-left: 8px;
-  color: #cdd6f4;
-  background-color: rgba(48, 53, 58, 0.4);
-  border-radius: 15px;
-  -gtk-icon-effect: none; 
+  padding: 0 8px;
+  -gtk-icon-effect: none;
 }
 
 #tray > .passive {
@@ -49,32 +34,29 @@ window#waybar {
 
 #tray > .needs-attention {
   -gtk-icon-effect: highlight;
-  color: #f9e2af;
+  color: #ffffff;
 }
 
 #workspaces {
-  background-color: rgba(48, 53, 58, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   border-radius: 15px;
-  margin-left: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin: 10px 0 10px 20px;
+  padding: 0 10px;
 }
 
 #workspaces button {
   min-height: 27px;
   padding: 0 8px;
   border-radius: 8px;
-  color: #cdd6f4;
+  color: #ffffff;
   background: transparent;
 }
 
 #workspaces button.active {
-  background-color: rgba(137, 180, 250, 0.2);
-  border-bottom: 2px solid #89b4fa;
+  background: rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid #ffffff;
 }
 
 #workspaces button:hover {
-  background-color: rgba(137, 180, 250, 0.1);
+  background: rgba(255, 255, 255, 0.05);
 }
